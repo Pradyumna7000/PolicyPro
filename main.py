@@ -34,7 +34,8 @@ new_prompt = PromptTemplate(
 )
 
 context = """Purpose: The primary role of this agent is to assist users by providing accurate
-            information about world population statistics and details about a country. """
+            information about various policies given in the pdf and suggest them depending the person situation
+            and needs . """
 os.environ["OPENAI_API_KEY"] = "your-ai-key"
 
 
