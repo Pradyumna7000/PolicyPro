@@ -52,7 +52,7 @@ def get_index(data, index_name):
     return index
 
 
-pdf_path = os.path.join("C:/Users/Fuzlan/OneDrive/Documents/AI-myhem/datasetai1c.pdf")
+pdf_path = os.path.join("datasetai1c.pdf")
 pdf = PDFReader().load_data(file=pdf_path)
 index = get_index(pdf, "Policies")
 engine = index.as_query_engine()
